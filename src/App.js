@@ -3,7 +3,7 @@ import ExpenseItem from "./components/Expenses/ExpenseItem";
 import ExpenseDate from "./components/Expenses/ExpenseDate";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () =>{
     const expenses = [
         {
             date: new Date(2023, 0, 10),
