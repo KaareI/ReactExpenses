@@ -4,7 +4,6 @@ import './ExpensesFilter.css';
 
 const ExpensesFilter = (props) => {
     const filterChangeHandler = (year) =>{
-        console.log('Filter change handled by ExpensesFilter.js')
         props.onChangeFilter(year.target.value)
     }
     return (
