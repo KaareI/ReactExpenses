@@ -6,6 +6,7 @@ const ExpensesList = (props) => {
     if (props.filteredExpenses.length === 0) {
         return <p className="expenses-list__fallback">No expenses found.</p>
     }
+
     return (
         <ul className="expenses-list">
             {
